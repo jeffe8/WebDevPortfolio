@@ -2620,7 +2620,7 @@ html.no-csstransitions .home-content__main {
     display: none;
 }
 
-.item-folio__project-link .item-folio__repo-link{
+.item-folio__project-link {
     display: block;
     color: #FFFFFF;
     box-shadow: 0 0 0 1px #FFFFFF;
@@ -2639,12 +2639,12 @@ html.no-csstransitions .home-content__main {
     transform: translate3d(0, -100%, 0);
 }
 
-.item-folio__project-link .item-folio__repo-link i {
+.item-folio__project-link i {
     font-size: 1.8rem;
     line-height: 4.2rem;
 }
 
-.item-folio__project-link .item-folio__repo-link::before {
+.item-folio__project-link::before {
     display: block;
     content: "";
     height: 3rem;
@@ -2655,9 +2655,9 @@ html.no-csstransitions .home-content__main {
     left: 50%;
 }
 
-.item-folio__project-link .item-folio__repo-link:hover,
-.item-folio__project-link .item-folio__repo-link:focus,
-.item-folio__project-link .item-folio__repo-link:active {
+.item-folio__project-link:hover,
+.item-folio__project-link:focus,
+.item-folio__project-link:active {
     background-color: #FFFFFF;
     color: #000000;
 }
@@ -2684,7 +2684,7 @@ html.no-csstransitions .home-content__main {
     transform: scale(1.05);
 }
 
-.item-folio:hover .item-folio__project-link .item-folio__repo-link,
+.item-folio:hover .item-folio__project-link,
 .item-folio:hover .item-folio__text {
     opacity: 1;
     visibility: visible;
